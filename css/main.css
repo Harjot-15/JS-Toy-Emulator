@@ -1,0 +1,114 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding-top: 50px;
+}
+
+header {
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+}
+
+header h1 {
+  font-family: 'Patrick Hand', cursive;
+  margin: 10px;
+}
+
+header h2 {
+  font-family: 'Patrick Hand', cursive;
+  margin: 25px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+}
+
+/* Additional CSS for button containers */
+.button-container,
+.action-container,
+.speak-container {
+  margin-bottom: 20px;
+}
+
+/* New classes for Generate and Reset buttons */
+#generate,
+#reset {
+  background-color: #000;
+  color: #fff;
+}
+
+#generate:active,
+#reset:active {
+  background-color: whitesmoke;
+  color: #000;
+}
+
+#output {
+  width: 80%;
+  max-width: 600px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px auto;
+  /* Centers the box */
+  font-family: 'Patrick Hand', cursive;
+  font-size: 18px;
+  background-color: #ffffff;
+  min-height: 100px;
+  border-radius: 15px;
+  /* Rounds the corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* Adds a subtle shadow */
+}
+
+
+#subject {
+  background-color: #FFC107;
+}
+
+#verb {
+  background-color: #4CAF50;
+}
+
+#adjective {
+  background-color: #2196F3;
+}
+
+#noun {
+  background-color: #9C27B0;
+}
+
+#place {
+  background-color: #FF5722;
+}
+
+/* Update for :active pseudo-class for the five buttons */
+#subject:active,
+#verb:active,
+#adjective:active,
+#noun:active,
+#place:active {
+  background-color: #000;
+}
+
+#speakButton {
+  background-color: #E91E63;
+  color: #fff;
+}
+
+/* Override for speakButton */
+#speakButton:active {
+  background-color: #000;
+  color: #fff;
+}
